@@ -38,6 +38,7 @@ buttonDestroyBox.addEventListener(`click`, onDestroyBoxes);
 
  function onDestroyBoxes() {
    boxes.innerHTML = "";
+   inputNumber.value = "";
 
  };
 
